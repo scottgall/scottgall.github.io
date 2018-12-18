@@ -47,7 +47,6 @@ body {
 .container {
   display: grid;
   width: 90em;
-  grid-template-columns: 200px repeat(auto-fill, 100px);
 }
 
 about {
