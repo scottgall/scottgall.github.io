@@ -23,9 +23,14 @@ html {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-
+  grid-template-columns: 1fr 3fr;
 }
+
+.work {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
 
 about {
   grid-row: 1 / 4;
