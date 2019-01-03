@@ -41,9 +41,23 @@ body {
 
 .work {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: min-content;
   grid-gap: 2em;
   padding: 2em;
+}
+
+.work>div {
+  background: pink;
+  overflow: hidden;
+}
+.work>div>h3 {
+  text-align: center;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
 }
 
 about {
@@ -53,4 +67,13 @@ about {
 img {
   width: 9em;
   border-radius: 50%;
+}
+
+.thumbnail {
+  width: 50%;
+  overflow: hidden;
+  float: left;
+  margin-right: 1em;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
 }
