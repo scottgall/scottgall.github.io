@@ -124,32 +124,57 @@ span {
 } */
 
 .char1 {
-  transform: rotate(-35deg) translate(0, -80px);
+  transform: rotate(-35deg) translate(0, -85px);
 }
 .char2 {
-  transform: rotate(-28deg) translate(0, -80px);
+  transform: rotate(-28deg) translate(0, -85px);
 }
 .char3 {
-  transform: rotate(-21deg) translate(0, -80px);
+  transform: rotate(-21deg) translate(0, -85px);
 }
 .char4 {
-  transform: rotate(-14deg) translate(0, -80px);
+  transform: rotate(-14deg) translate(0, -85px);
 }
 .char5 {
-  transform: rotate(-7deg) translate(0, -80px);
-}
-.char6 {
-  transform: rotate(7deg) translate(0, -80px);
+  transform: rotate(-7deg) translate(0, -85px);
 }
 .char7 {
-  transform: rotate(14deg) translate(0, -80px);
+  transform: rotate(14deg) translate(0, -85px);
 }
 .char8 {
-  transform: rotate(21deg) translate(0, -80px);
+  transform: rotate(21deg) translate(0, -85px);
 }
 .char9 {
-  transform: rotate(28deg) translate(0, -80px);
+  transform: rotate(28deg) translate(0, -85px);
 }
 .char10 {
-  transform: rotate(35deg) translate(0, -80px);
+  transform: rotate(35deg) translate(0, -85px);
+}
+
+.char11 {
+  transform: rotate(-35deg) translate(0, -85px);
+}
+.char12 {
+  transform: rotate(-28deg) translate(0, -85px);
+}
+.char13 {
+  transform: rotate(-21deg) translate(0, -85px);
+}
+.char4 {
+  transform: rotate(-14deg) translate(0, -85px);
+}
+.char5 {
+  transform: rotate(-7deg) translate(0, -85px);
+}
+.char7 {
+  transform: rotate(14deg) translate(0, -85px);
+}
+.char8 {
+  transform: rotate(21deg) translate(0, -85px);
+}
+.char9 {
+  transform: rotate(28deg) translate(0, -85px);
+}
+.char10 {
+  transform: rotate(35deg) translate(0, -85px);
 }
