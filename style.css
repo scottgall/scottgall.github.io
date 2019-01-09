@@ -125,10 +125,17 @@ img {
   justify-content: center;
   justify-self: center;
 } */
-.icon {
-  border-radius: 0;
-  width: 10px;
+.icons {
+  display: flex;
+  justify-content: center;
 }
+.icons>a {
+  z-index: 20;
+}
+.icon {
+  width: 30px;
+}
+
 .headshot {
   width: 150px;
   margin: auto;
