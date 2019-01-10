@@ -13,10 +13,10 @@ html {
   /* A system font stack so things load nice and quick! */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-weight: 900;
+  font-weight: 600;
   font-size: 12px;
   color: var(--black);
-  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+  /* text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07); */
 }
 
 *,
@@ -31,30 +31,33 @@ body {
 }
 
 .container {
-  display: grid;
-  margin: auto;
+  /* display: grid; */
+  /* margin: auto; */
   width: 100vw;
   height: 100vh;
-  grid-template-rows: auto 1fr auto
+  display: grid;
+  grid-template-rows: auto auto;
 }
 
+.about>p {
+  margin-bottom: 5px;
+}
 .main-content {
   display: grid;
   width: 80vw;
   margin: auto;
   /* grid-template-columns: 1fr 3fr; */
 }
-
-.personal-statement {
-  margin: 20px 0 20px 0;
-}
 .work {
   display: grid;
+  background: peachpuff;
   grid-template-columns: repeat(4, 1fr);
   /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
   grid-gap: 5px;
   justify-items: center;
   grid-gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   /* grid-template-columns: repeat(4, minmax(200px, 1fr)); */
   /* grid-auto-flow: column; */
 
@@ -89,8 +92,11 @@ body {
 
 .about {
   text-align: center;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
+
 
 img {
   /* width: 9em; */
@@ -144,7 +150,8 @@ img {
 }
 
 .main-pic-section {
-    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     display: grid;
     grid-template-columns: auto 150px auto;
 }
