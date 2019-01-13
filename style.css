@@ -32,8 +32,8 @@ body {
 
 .container {
   /* display: grid; */
-  /* margin: auto; */
-  width: 100vw;
+  margin: auto;
+  width: 80vw;
   height: 100vh;
   display: grid;
   /* grid-template-rows: 1fr; */
@@ -51,7 +51,7 @@ body {
 }
 .work {
   background: none;
-  width: 80vw;
+  /* width: 80vw; */
   margin: auto;
   display: grid;
   /* background: peachpuff; */
@@ -180,7 +180,7 @@ body {
 }
 
 .main-pic-section {
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 25px;
     display: grid;
     grid-template-columns: auto 150px auto;
