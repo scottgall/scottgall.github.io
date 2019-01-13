@@ -74,6 +74,18 @@ body {
   /* padding: 2em; */
 }
 
+.project-links {
+  visibility: hidden;
+}
+
+.project-container:hover > .project-links{
+  visibility: visible;
+}
+
+.project-links>a>.icon {
+  width: 20px;
+}
+
 @media(max-width:900px){
   .main-content {
     width: 90vw;
@@ -161,18 +173,6 @@ body {
 .icon {
   width: 25px;
   border-radius: 0;
-}
-
-.project-links {
-  visibility: hidden;
-}
-
-.project-container:hover > .project-links{
-  visibility: visible;
-}
-
-.project-links>a>.icon {
-  width: 20px;
 }
 
 .headshot {
