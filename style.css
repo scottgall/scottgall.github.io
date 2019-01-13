@@ -28,6 +28,7 @@ html {
 body {
   margin: 0px;
   padding: 0;
+  text-align: center;
 }
 
 .container {
@@ -55,7 +56,7 @@ body {
   margin: auto;
   display: grid;
   /* background: peachpuff; */
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(200px, 1fr));
   /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
   grid-gap: 5px;
   align-items: start;
@@ -86,7 +87,7 @@ body {
   width: 20px;
 }
 
-@media(max-width:900px){
+@media(max-width:920px){
   .main-content {
     width: 90vw;
   }
@@ -94,12 +95,15 @@ body {
      grid-template-columns: repeat(3, 1fr);
   }
 }
-@media(max-width:650px){
+@media(max-width:690px){
   .work {
      grid-template-columns: repeat(2, 1fr);
   }
 }
-@media(max-width:430px){
+@media(max-width:460px){
+  .container {
+    width: 100vw;
+  }
   .project-links {
     visibility: visible;
   }
@@ -187,6 +191,10 @@ body {
     margin-bottom: 25px;
     display: grid;
     grid-template-columns: auto 150px auto;
+}
+
+.personal-statement {
+  padding: 0 20px;
 }
 
 span {
