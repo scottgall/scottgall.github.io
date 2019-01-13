@@ -88,6 +88,9 @@ body {
   }
 }
 @media(max-width:430px){
+  .project-links {
+    visibility: visible;
+  }
   .work {
     grid-template-columns: 1fr;
   }
