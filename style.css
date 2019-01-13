@@ -60,7 +60,7 @@ body {
   align-items: start;
   justify-items: center;
   grid-gap: 10px;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   padding-bottom: 20px;
   height: 100%;
   grid-row-start: 3;
@@ -94,6 +94,7 @@ body {
 
 .work>div {
   width: 200px;
+  padding: 20px;
 }
 
 .about {
@@ -158,6 +159,14 @@ body {
   border-radius: 0;
 }
 
+.project-links {
+  visibility: hidden;
+}
+
+.project-container:hover > .project-links{
+  visibility: visible;
+}
+
 .project-links>a>.icon {
   width: 20px;
 }
@@ -171,7 +180,7 @@ body {
 
 .main-pic-section {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     display: grid;
     grid-template-columns: auto 150px auto;
 }
