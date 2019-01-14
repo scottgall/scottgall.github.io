@@ -87,31 +87,6 @@ body {
   width: 20px;
 }
 
-@media(max-width:920px){
-  .main-content {
-    width: 90vw;
-  }
-  .work {
-     grid-template-columns: repeat(3, 1fr);
-  }
-}
-@media(max-width:690px){
-  .work {
-     grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media(max-width:460px){
-  .container {
-    width: 100vw;
-  }
-  .project-links {
-    visibility: visible;
-  }
-  .work {
-    grid-template-columns: 1fr;
-  }
-}
-
 .work>div {
   width: 200px;
   padding: 20px;
@@ -139,7 +114,11 @@ body {
   -webkit-shape-outside:circle();
   shape-outside: circle();
   float: left;
-  margin-right: 2rem;
+  margin: 0 20px 0 0;
+}
+.big-right {
+  float: right;
+  margin: 0 0 0 20px;
 }
 
 .project-title {
@@ -154,6 +133,9 @@ body {
   margin-bottom: 10px;
 }
 
+.project-container {
+  width: 200px;
+}
 /* .project-container {
   text-align: center;
   display: grid;
@@ -213,6 +195,68 @@ span {
   top: 0;
   transform-origin: center center;
 } */
+
+@media(max-width:920px){
+  .main-content {
+    width: 90vw;
+  }
+  .work {
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+  }
+  .med-right {
+    float: right;
+    margin: 0 0 0 20px;
+  }
+  .med-left {
+    float: left;
+    margin: 0 20px 0 0;
+  }
+  .bottom-right {
+    grid-column-start: 3;
+  }
+}
+
+@media(max-width:690px){
+  .work {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+  }
+  .bottom-right {
+    grid-column-start: auto;
+  }
+  .s-right {
+    float: right;
+    margin: 0 0 0 20px;
+  }
+  .s-left {
+    float: left;
+    margin: 0 20px 0 0;
+  }
+}
+
+@media(max-width:460px){
+  .container {
+    width: 100vw;
+  }
+  .project-links {
+    visibility: visible;
+  }
+  .work {
+    grid-template-columns: 1fr;
+    width: 80%;
+  }
+  .project-container:nth-child(even) {
+    justify-self: start;
+    margin-left: 20px;
+  }
+  .project-container:nth-child(odd) {
+    justify-self: end;
+    margin-right: 20px;
+  }
+  .small-right {
+    float: right;
+    margin: 0 0 0 20px;
+  }
+}
 
 .char1 {
   transform: rotate(-39deg) translate(0, -85px);
