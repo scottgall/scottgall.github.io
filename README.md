@@ -1,2 +1,1 @@
-# Scott-Gall-Portfolio
-Web developer portfolio
+# [Web Developer Portfolio](https://scottgall.github.io/)
