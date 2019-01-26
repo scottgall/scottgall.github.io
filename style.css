@@ -261,6 +261,11 @@ span {
     float: right;
     margin: 0 0 0 20px;
   }
+  .xs-left {
+    float: left;
+    margin: 0 20px 0 0;
+  }
+
 }
 
 .char1 {
