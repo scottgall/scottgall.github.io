@@ -345,7 +345,7 @@ span {
 	animation-delay: -1s;
 	animation-duration: 3s;
 }
-@keyframes move{
+@-webkit-keyframes move{
 	0% {		transform: translate(-175px,0px) scale(1,1);}
 	50% {		transform: translate(-87px,0px) scale(1,0.5);}
 	100% {	transform: translate(0px,0px) scale(1,1);}
