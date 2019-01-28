@@ -220,8 +220,7 @@ body {
     margin-right: 20px;
   } */
   .project-section {
-    max-inline-size: 399px;
-    width: 300px;
+    flex-direction: column;
   }
   .xs-right {
     float: right;
