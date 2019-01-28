@@ -220,9 +220,12 @@ body {
     justify-self: end;
     margin-right: 20px;
   } */
+  .project-container {
+    margin: auto;
+  }
   .project-section {
     flex-direction: column;
-    justify-items: center;
+    justify-content: center;
   }
   .xs-right {
     float: right;
