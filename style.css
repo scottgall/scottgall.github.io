@@ -222,6 +222,7 @@ body {
   } */
   .project-section {
     flex-direction: column;
+    justify-items: center;
   }
   .xs-right {
     float: right;
