@@ -65,6 +65,7 @@ body {
 
 .project-container {
   inline-size: 200px;
+  min-inline-size: 200px;
   padding: 20px;
 }
 
