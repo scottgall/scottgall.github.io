@@ -1,5 +1,5 @@
 :root {
-  --yellow: hsl(47, 48%, 72%);
+  --mainBlue: #4c72c2;
   --dark1: hsl(267, 100%, 7%);
   --dark2: hsl(267, 70%, 20%);
 }
@@ -14,7 +14,7 @@ html {
   /* A system font stack so things load nice and quick! */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-weight: 500;
+  font-weight: 450;
   font-size: 12px;
   color: hsl(221, 95%, 20%);
   /* text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07); */
@@ -44,11 +44,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  min-width: 100%;
+  min-inline-size: 100%;
   text-align: center;
   background: none;
-  background-color:#4c72c2;
-  color: white;
+  background-color: #4c72c2;
+  color: hsl(300, 40%, 96%);
 }
 
 .name .title {
@@ -58,18 +58,14 @@ body {
 .about>p {
   margin: 5px 0;
 }
-.main-content {
-  display: grid;
-  width: 80vw;
-  margin: auto;
-}
 
 .work {
   min-width: 100%;
-  /* max-inline-size: 800px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; */
+}
+
+.project-container {
+  inline-size: 200px;
+  padding: 20px;
 }
 
 .project-section {
@@ -83,6 +79,7 @@ body {
 .project-links {
   visibility: hidden;
 }
+
 .project-container:hover > .project-links{
   visibility: visible;
 }
@@ -90,12 +87,6 @@ body {
 .project-links>a>.icon {
   width: 20px;
 }
-
-.project-container {
-  inline-size: 200px;
-  padding: 20px;
-}
-
 
 .rounded {
   border-radius: 50%;
@@ -107,7 +98,7 @@ body {
   shape-outside: circle();
   float: left;
   margin: 0 20px 0 0;
-  border: solid 1px white;
+  border: solid 2px var(--mainBlue);
 }
 
 
@@ -144,7 +135,7 @@ body {
   border-radius: 0;
 }
 .icon-heading {
-  fill: white;
+  fill: hsl(300, 9%, 91%);
 }
 
 .headshot {
@@ -320,7 +311,7 @@ span {
 	position:absolute;
 	left:0; bottom:0;
 	background-repeat:repeat-x;
-	background-position:left bottom;
+	background-position:left top;
 	background-size:350px 100%;
 	transform-origin:0 0% 0;
 	
