@@ -221,6 +221,7 @@ body {
   } */
   .project-section {
     max-inline-size: 399px;
+    width: 300px;
   }
   .xs-right {
     float: right;
