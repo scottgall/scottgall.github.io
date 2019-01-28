@@ -94,6 +94,8 @@ body {
 }
 
 .project-container {
+  min-inline-size: 200px;
+  max-inline-size: 200px;
   inline-size: 200px;
   padding: 15px;
 }
