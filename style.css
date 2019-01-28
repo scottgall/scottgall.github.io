@@ -94,6 +94,7 @@ body {
 }
 
 .project-container {
+  flex-shrink: 0;
   flex-basis: 200px;
   min-inline-size: 200px;
   max-inline-size: 200px;
