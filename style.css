@@ -218,7 +218,7 @@ body {
     margin-right: 20px;
   } */
   .project-section {
-    width: 399px;
+    max-inline-size: 399px;
   }
   .xs-right {
     float: right;
