@@ -94,6 +94,7 @@ body {
 }
 
 .project-container {
+  flex-basis: 200px;
   min-inline-size: 200px;
   max-inline-size: 200px;
   inline-size: 200px;
@@ -198,7 +199,7 @@ body {
   }
 }
 */
-@media(max-width:415px){
+@media(max-width:450px){
   /* .container {
     width: 100vw;
   } */
