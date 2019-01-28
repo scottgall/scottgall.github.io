@@ -227,8 +227,8 @@ body {
     margin: auto;
   }
   .project-section {
-    /* flex-direction: column; */
-    /* justify-content: center; */
+    flex-direction: column;
+    justify-content: center;
   }
   .xs-right {
     float: right;
