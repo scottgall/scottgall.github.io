@@ -230,7 +230,7 @@ body {
     /* flex-direction: column;
     justify-content: center; */
     max-width: 399px;
-    padding: 0 30px;
+    padding: 0 60px;
     
   }
   .project-container:nth-child(odd) {
