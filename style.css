@@ -37,14 +37,14 @@ body {
   flex-wrap: wrap;
   align-content: stretch;
   justify-content: center;
-  min-inline-size: 200px;
+  min-width: 200px;
 }
 
 .about {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  min-inline-size: 100%;
+  min-width: 100%;
   text-align: center;
   background: none;
   background-color: #4c72c2;
@@ -87,7 +87,7 @@ body {
 
 .project-section {
   margin: auto;
-  max-inline-size: 800px;
+  max-width: 800px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -97,10 +97,13 @@ body {
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: 200px auto;
-  min-inline-size: 200px;
+  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
+  /* min-inline-size: 200px;
   max-inline-size: 200px;
-  inline-size: 200px;
-  padding: 15px;
+  inline-size: 200px; */
+  padding: 20px;
 }
 
 .project-links {
@@ -201,7 +204,7 @@ body {
   }
 }
 */
-@media(max-width:450px){
+@media(max-width:399px){
   /* .container {
     width: 100vw;
   } */
@@ -221,11 +224,11 @@ body {
     margin-right: 20px;
   } */
   .project-container {
-    margin: auto;
+    /* margin: auto; */
   }
   .project-section {
-    flex-direction: column;
-    justify-content: center;
+    /* flex-direction: column;
+    justify-content: center; */
   }
   .xs-right {
     float: right;
