@@ -230,13 +230,13 @@ body {
     /* flex-direction: column;
     justify-content: center; */
     max-width: 399px;
-    padding: 0 20px;
+    padding: 0 30px;
     
   }
-  .project-container:nth-child(even) {
+  .project-container:nth-child(odd) {
     margin-right: auto;
   }
-  .project-container:nth-child(odd) {
+  .project-container:nth-child(even) {
     margin-left: auto;
   }
   .xs-right {
