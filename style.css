@@ -229,7 +229,15 @@ body {
   .project-section {
     /* flex-direction: column;
     justify-content: center; */
-    width: 399px;
+    max-width: 399px;
+    padding: 0 20px;
+    
+  }
+  .project-container:nth-child(even) {
+    margin-right: auto;
+  }
+  .project-container:nth-child(odd) {
+    margin-left: auto;
   }
   .xs-right {
     float: right;
