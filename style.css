@@ -107,11 +107,14 @@ body {
 }
 
 .project-links {
-  visibility: hidden;
+  /* visibility: hidden; */
+  opacity: 0;
+  transition: opacity 300ms linear;
 }
 
 .project-container:hover > .project-links{
-  visibility: visible;
+  /* visibility: visible; */
+  opacity: 1;
 }
 
 .project-links>a>.icon {
