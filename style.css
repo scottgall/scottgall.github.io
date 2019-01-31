@@ -1,5 +1,5 @@
 :root {
-  --mainBlue: #4c72c2;
+  --mainBlue: hsl(221, 49%, 53%);
   --dark1: hsl(267, 100%, 7%);
   --dark2: hsl(267, 70%, 20%);
 }
@@ -109,7 +109,7 @@ body {
 .project-links {
   /* visibility: hidden; */
   opacity: 0;
-  transition: opacity 300ms linear;
+  transition: opacity 400ms linear;
 }
 
 .project-container:hover > .project-links{
@@ -132,11 +132,12 @@ body {
   float: left;
   margin: 0 20px 0 0;
   border: solid 2px var(--mainBlue);
-  box-shadow: 0 1px 5px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px hsla(221, 100%, 15%, 0.12), 0 1px 2px hsl(221, 100%, 15%, 0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
-.thumbnail:hover{
-  box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 5px 10px rgba(0,0,0,0.22);
+
+.project-container:hover > a>img {
+  box-shadow: 0 10px 20px hsla(221, 100%, 15%, 0.19), 0 6px 6px hsla(221, 100%, 15%, 0.23)
 }
 
 .project-title {
@@ -172,6 +173,8 @@ body {
 .icon {
   width: 25px;
   border-radius: 0;
+  filter: drop-shadow(0 10px 20px hsla(221, 100%, 15%, 1));
+
 }
 
 .l-right {
