@@ -38,6 +38,7 @@ body {
   align-content: stretch;
   justify-content: center;
   min-width: 200px;
+  /* color: pink; */
 }
 
 .about {
