@@ -1,1 +1,1 @@
-# [Web Developer Portfolio](https://scottgall.github.io/)
+## [Web Developer Portfolio](https://scottgall.github.io/)
