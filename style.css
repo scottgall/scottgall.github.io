@@ -174,7 +174,7 @@ body {
 .icon {
   width: 25px;
   border-radius: 0;
-  filter: drop-shadow(0 10px 20px hsla(221, 100%, 15%, 1));
+  filter: drop-shadow(0 10px 20px hsla(277, 100%, 15%, 1));
 
 }
 
@@ -371,7 +371,6 @@ span {
 	height:300px;
 	position:relative;
 	background-color:hsl(221, 49%, 53%);
-	/* iOS safariで隙間が空くことへの対応 */
 	margin:-1px 0;	
 	z-index:2;
 }
