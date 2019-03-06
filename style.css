@@ -76,7 +76,7 @@ body {
   content: '';
   position: absolute;
   background: radial-gradient(circle at bottom left, #f95253 0%, #fd992d 50%);  
-  width: 4em;
+  width: 3.85em;
   height: 100%;
   top: 0;
   bottom: 0;
