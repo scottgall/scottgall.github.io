@@ -67,7 +67,8 @@ body {
   text-shadow: -2px 2px 0px #fd992d, -4px 4px 0px #fff;
   transform: translateY(-97px) rotate(-6deg);
   white-space: nowrap;
-  overflow: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
   /* height: 60px; */
   /* margin: 20px; */
   padding: 7px 30px;
