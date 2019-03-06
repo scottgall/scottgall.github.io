@@ -185,6 +185,7 @@ body {
   position: relative;
   transform: skewY(-3deg);
   z-index: 1;
+  margin-bottom: 10px;
 }
 
 .project-container {
