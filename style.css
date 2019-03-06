@@ -70,13 +70,13 @@ body {
   overflow: auto;
   /* height: 60px; */
   /* margin: 20px; */
-  padding: 10px 20px;
+  padding: 7px 30px;
  }
  .hi:before {
   content: '';
   position: absolute;
   background: radial-gradient(circle at bottom left, #f95253 0%, #fd992d 50%);  
-  width: 3.85em;
+  width: 4.15em;
   height: 100%;
   top: 0;
   bottom: 0;
