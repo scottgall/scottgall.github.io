@@ -325,6 +325,8 @@ body {
 @media(max-width:415px){
   .project-links {
     visibility: visible;
+    opacity: 1;
+    transform: scale(1.08);  
   }
   .project-section {
     max-width: 399px;
