@@ -345,13 +345,22 @@ body {
 .mail-icon {
   width: 37.5px;
   fill: hsla(277, 100%, 15%);
+  transition: all 250ms ease;
+  filter: fill(#fd992d);
+
 }
+.mail-icon:hover {
+  transform: scale(1.25) rotate(6deg) translateX(4px) translateY(4px);
+  filter: drop-shadow(0 1px .5px hsla(277, 100%, 15%, .3));
+}
+
 .contact-section {
   display: flex;
   justify-content: center;
   align-items: start;
   padding-bottom: 13px;
   text-align: left;
+  margin: 20px;
 }
 .hit-me-up {
   text-align: center;
