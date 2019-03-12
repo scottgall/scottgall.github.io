@@ -303,12 +303,31 @@ body {
   /* max-width: 200px; */
   margin: 20px;
 }
+
+.text-link {
+  /* background: radial-gradient(circle at top right, #fd992d 0%, hsl(360, 93%, 65%) 50%); */
+  background-image: linear-gradient(to bottom, #fd992d, hsl(360, 93%, 65%) 33%, hsl(330, 78%, 65%) 66%, hsl(277, 68%, 67%));
+  background-size: 100% 300%;
+  /* background-position: 0 0%; */
+  /* transition-property: background-position; */
+  transition: all .75s;
+  color: white;
+  padding: 2px 4px;
+  text-decoration: none;
+  z-index: 999;
+}
+
+.text-link:hover {
+  background-position: bottom;
+}
+
 .footer-container {
   overflow: hidden;
   /* height: 225px; */
   align-self: flex-end;
   padding-top: 70px;
   margin-top: -70px;
+  z-index: -1;
   /* padding-bottom: 100px; */
 }
 
@@ -344,14 +363,13 @@ body {
 
 .mail-icon {
   width: 37.5px;
-  fill: hsla(277, 100%, 15%);
   transition: all 250ms ease;
   filter: fill(#fd992d);
 
 }
 .mail-icon:hover {
-  transform: scale(1.25) rotate(6deg) translateX(4px) translateY(4px);
-  filter: drop-shadow(0 1px .5px hsla(277, 100%, 15%, .3));
+  transform: scale(1.25) rotate(7deg) translateX(4px) translateY(4px);
+  filter: drop-shadow(0 2px 2px hsla(277, 100%, 15%, .3));
 }
 
 .contact-section {
@@ -389,6 +407,9 @@ body {
   .m-text-left {
     text-align: left;
   }
+  .statement {
+    width: 100vw;
+  }
 }
 
 @media(max-width:599px){
@@ -406,6 +427,10 @@ body {
   .s-text-left {
     text-align: left;
   }
+  .statement {
+    width: 100vw;
+  }
+
 }
 @media(max-width:415px){
   .project-links {
@@ -437,4 +462,8 @@ body {
   .xs-text-left {
     text-align: left;
   }
+  .statement {
+    width: 100vw;
+  }
+
 }
