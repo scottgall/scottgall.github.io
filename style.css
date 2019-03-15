@@ -301,13 +301,13 @@ body {
   min-width: 200px;
   justify-content: center;
   z-index: 2;
-  margin: 20px;
+  /* margin: 20px; */
 }
 
 .extras-section {
   /* border: solid 1px blue; */
   /* max-width: 200px; */
-  /* margin: 20px; */
+  padding: 0 20px;
 }
 
 .text-link {
