@@ -391,13 +391,13 @@ body {
   align-items: start;
   padding-bottom: 13px;
   text-align: left;
-  margin: 20px;
+  margin: 10px 20px;
 }
 .always-looking {
   max-width: 600px;
   /* margin: auto; */
   display: inline-block;
-  margin: 20px;
+  margin: 10px 20px;
 }
 .hit-me-up {
   text-align: center;
