@@ -15,6 +15,7 @@ html {
   font-weight: medium;
   font-size: 20px;
   letter-spacing: 1px;
+  line-height: 1.25;
 }
 
 *,
@@ -318,7 +319,7 @@ body {
   /* transition-property: background-position; */
   transition: all .75s;
   color: white;
-  padding: 1px 6px;
+  padding: 0px 6px;
   text-decoration: none;
   z-index: 666;
 }
