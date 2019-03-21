@@ -415,7 +415,7 @@ body {
 
 .skate {
   float: left;
-  width: 300px;
+  width: 330px;
   margin-right: 15px;
 }
 
@@ -464,7 +464,7 @@ body {
 
 }
 
-@media(max-width:451px){
+@media(max-width:481px){
   .skate {
     width: 100%;
     margin-bottom: 10px;
