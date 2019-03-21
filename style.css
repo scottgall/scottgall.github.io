@@ -464,12 +464,13 @@ body {
 
 }
 
-@media(max-width:481px){
+@media(max-width:532px){
   .skate {
     width: 100%;
     margin-bottom: 10px;
   }
 }
+
 @media(max-width:415px){
   .project-links {
     visibility: visible;
