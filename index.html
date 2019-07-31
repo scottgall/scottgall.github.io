@@ -11,25 +11,29 @@
 <body>
   <h1>Scott Gall</h1>
   <h2>website maker person</h2>
-  <img class="scottPic" src="./assets/images/scott.jpg" alt="Italian Trulli">
+  <nav class="links">
+    <a href="https://github.com/scottgall"><img class="link" src="./assets/images/github.svg" alt="github"></a>
+    <a href="https://scott-gall.com/resume"><img class="link" src="./assets/images/cv.svg" alt="cv"></a>
+    <a href="https://www.linkedin.com/in/scottarthurgall/"><img class="link" src="./assets/images/linkedin.svg" alt="linkedin"></a>
+  </nav>
+  <img class="scottPic" src="./assets/images/scott.jpg" alt="scott">
+  <a href="https://www.instagram.com/sagsagusername/"><img class="link" src="./assets/images/instagram.svg" alt="instagram"></a>
+  <!-- Favicon script-->
   <script>
     const favicon = document.querySelector("link[rel=icon]");
-  
     if (favicon) {
       const emoji = favicon.getAttribute("data-emoji");
-  
       if (emoji) {
         const canvas = document.createElement("canvas");
         canvas.height = 64;
         canvas.width = 64;
-  
         const ctx = canvas.getContext("2d");
         ctx.font = "64px serif";
         ctx.fillText(emoji, 0, 64);
-  
         favicon.href = canvas.toDataURL();
       }
     }
   </script>
+  <!-- END Favicon script -->
 </body>
 </html>
