@@ -1,17 +1,33 @@
 
 <html>
   <head>
-      <meta charset="utf-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta property="og:title" content="Resume" />
-      <meta property="og:image" content="assets/images/resume-thumb.png"/>
-      <meta property="og:description" content="Resume"/>
-      <meta property="og:url" content="https://scott-gall.com/resume" />  
-      <title>resume</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="Resume" />
+    <meta property="og:image" content="assets/images/resume-thumb.png"/>
+    <meta property="og:description" content="Resume"/>
+    <meta property="og:url" content="https://scott-gall.com/resume" />  
+    <title>SG resume</title>
+    <link rel="icon" data-emoji="👨‍💻" type="image/png">
   </head>
   <body style="height: 100%; width: 100%; overflow: hidden; margin: 0px; background-color: rgb(82, 86, 89);">
-
-  <embed width="100%" height="100%" name="plugin" id="plugin" src="assets/images/Resume_ScottGall.pdf" type="application/pdf" internalinstanceid="9" style="position: absolute; top: 0px; left: 0px">
-  
+    <embed width="100%" height="100%" name="plugin" id="plugin" src="assets/images/Resume_ScottGall.pdf" type="application/pdf" internalinstanceid="9" style="position: absolute; top: 0px; left: 0px">
+    <!-- Favicon script-->
+    <script>
+      const favicon = document.querySelector("link[rel=icon]");
+      if (favicon) {
+        const emoji = favicon.getAttribute("data-emoji");
+        if (emoji) {
+          const canvas = document.createElement("canvas");
+          canvas.height = 64;
+          canvas.width = 64;
+          const ctx = canvas.getContext("2d");
+          ctx.font = "64px serif";
+          ctx.fillText(emoji, 0, 64);
+          favicon.href = canvas.toDataURL();
+        }
+      }
+    </script>
+    <!-- END Favicon script -->
   </body>  
