@@ -4,21 +4,24 @@
   box-sizing: border-box;
 }
 
-html, body {
+html, body, main {
   height: 100%;
 }
 body {
   font-family: sans-serif;
   background: #fafafa;
+}
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
 }
 h1 {
   padding-bottom: 10px;
 }
-h2 {
+p {
   padding-bottom: 10px;
 }
 .links {
