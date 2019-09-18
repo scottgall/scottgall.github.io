@@ -9,19 +9,23 @@
   <link rel="icon" data-emoji="👨‍💻" type="image/png">
 </head>
 <body>
-  <main role="main">
+  <header role="banner">
     <h1>Scott Gall</h1>
     <h2>website maker person</h2>
-    <nav class="links">
-      <a href="https://github.com/scottgall"><img class="link" src="./assets/images/github.svg" alt="github"></a>
-      <a href="https://scott-gall.com/resume"><img class="link" src="./assets/images/cv.svg" alt="cv"></a>
-      <a href="https://www.linkedin.com/in/scottarthurgall/"><img class="link" src="./assets/images/linkedin.svg" alt="linkedin"></a>
-    </nav>
+  </header>
+  <nav role="navigation" aria-label="Main Navigation">
+    <a href="https://github.com/scottgall"><img class="link" src="./assets/images/github.svg" alt="github"></a>
+    <a href="https://scott-gall.com/resume"><img class="link" src="./assets/images/cv.svg" alt="cv"></a>
+    <a href="https://www.linkedin.com/in/scottarthurgall/"><img class="link" src="./assets/images/linkedin.svg" alt="linkedin"></a>
+  </nav>
+  <main role="main">
     <img class="scottPic" src="https://res.cloudinary.com/dmkdfvoqb/image/upload/v1567716485/scott.jpg" alt="scott">
-    <a href="https://www.instagram.com/sagsagusername/"><img class="link" src="./assets/images/instagram.svg" alt="instagram"></a>
   </main>
-    <!-- Favicon script-->
-    <script>
+  <footer role="contentinfo">
+    <a href="https://www.instagram.com/sagsagusername/"><img class="link" src="./assets/images/instagram.svg" alt="instagram"></a>
+  </footer>
+  <!-- Favicon script-->
+  <script>
     const favicon = document.querySelector("link[rel=icon]");
     if (favicon) {
       const emoji = favicon.getAttribute("data-emoji");
