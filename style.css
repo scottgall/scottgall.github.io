@@ -16,12 +16,11 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 h1 {
   padding-bottom: 10px;
 }
-p {
+h2 {
   padding-bottom: 10px;
 }
 .links {
