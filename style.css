@@ -19,7 +19,7 @@ body {
 h1 {
   padding-bottom: 10px;
 }
-h2 {
+h3 {
   padding-bottom: 10px;
 }
 nav {
@@ -35,6 +35,5 @@ nav {
   cursor: pointer;
 }
 .scottPic {
-  width: 400px;
   padding-bottom: 10px;
 }
