@@ -53,3 +53,8 @@ footer {
   text-decoration: none;
   font-size: 1.5em;
 }
+
+.quote {
+  font-size: 12px;
+  font-style: italic;
+}
