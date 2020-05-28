@@ -11,7 +11,7 @@ body {
   font-family: sans-serif;
   color: #282928;
   background: #fafafa;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -20,7 +20,6 @@ body {
   padding-bottom: 30px;
 }
 h1 {
-  /* padding-top: 20px; */
   padding-bottom: 10px;
 }
 p {
