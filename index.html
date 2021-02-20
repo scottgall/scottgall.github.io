@@ -1,46 +1,187 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="utf-8" />
+  <meta property="og:title" content="Scott Gall" />
+  <meta property="og:image" content="assets/images/thumb.png"/>
+  <meta property="og:description" content="Scott Gall's web developer portfoloio site"/>
+  <meta property="og:url" content="https://scott-gall.com/" />  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>SG</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="icon" data-emoji="✌️" type="image/png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <link rel="icon" data-emoji="👨‍💻" type="image/png">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
 </head>
 <body>
-  <header role="banner">
-    <h1>Scott Gall</h1>
-  </header>
-  <nav role="navigation">
-    <a title="Resume" href="https://scott-gall.com/resume"><img class="link" src="./assets/images/cv.svg" alt="cv"></a>
-    <a title="LinkedIn profile" href="https://www.linkedin.com/in/scottarthurgall/"><img class="link" src="./assets/images/linkedin.svg" alt="linkedin"></a>
-    <a title="GitHub profile" href="https://github.com/scottgall"><img class="link" src="./assets/images/github.svg" alt="github"></a>
-  </nav>
-  <main role="main">
-    <a class="intro">Hi! I'm a developer with a passion for creating accessible experiences on the web. I love to skateboard, read, and cook meals with my boyfriend. I'm currently studying data anylytics and visualization. Learning Python has been really fun so far, and I hope to be able able to analyze data and create visualizations that tell moving stories.</a>
-    <img class="scottPic" src="./assets/images/scott.jpeg" alt="scott" title="boi">
-  </main>
-  <footer role="contentinfo">
-    <a class="boardEmoji" title="Sk8 Zork" href="https://sk8zork.com">🛹</a>
-    <a class="leafEmoji" title="Leon the Professional" href="https://blog.plain-me.com/2014/08/6247/">🌱</a>
-  </footer>
-  <!-- Favicon script-->
+  <div class='container'>
+    <div class='about-container'>
+    <div class='about'>
+      <div class='hi'><span class='hi-orange'>Hi I'm</span><span class='name'>Scott<span></span></div>
+      <img class='headshot rounded' src='https://res.cloudinary.com/dmkdfvoqb/image/upload/v1548286375/scott-square-2.jpg'/>
+        <a class='clickable github' href="https://github.com/scottgall">
+          <svg
+            class='icon icon-heading'
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:cc="http://creativecommons.org/ns#"
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:svg="http://www.w3.org/2000/svg"
+            xmlns="http://www.w3.org/2000/svg"
+            xml:space="preserve"
+            viewBox="0 0 200 200"
+            version="1.1">
+            <path
+            id="path2"
+            style="clip-rule:evenodd;fill-rule:evenodd;stroke-width:3.33333349" fill="hsl(277, 53%, 42%)"
+            d="m 58.476667,101.89333 c -0.18,0 1.973333,4.55667 2.033333,4.55667 4.7,8.38667 13.76,13.6 29.043333,15.04667 -2.18,1.62666 -4.8,4.71333 -5.163333,8.28 -2.743333,1.74333 -8.26,2.32 -12.546667,0.99 -6.01,-1.86334 -8.31,-13.55334 -17.306666,-11.88667 -1.946667,0.35667 -1.56,1.62 0.123333,2.69667 2.743333,1.74333 5.323333,3.92666 7.313333,8.57 1.53,3.56666 4.743334,9.93666 14.91,9.93666 4.033334,0 6.86,-0.47666 6.86,-0.47666 0,0 0.07667,9.10333 0.07667,12.64333 0,4.08333 -5.606667,5.23333 -5.606667,7.19667 0,0.77666 1.856667,0.85 3.346667,0.85 2.946667,0 9.076667,-2.41667 9.076667,-6.66 0,-3.37 0.05667,-14.7 0.05667,-16.68667 0,-4.33333 2.363334,-5.70667 2.363334,-5.70667 0,0 0.293333,23.13334 -0.563334,26.24 -1.006673,3.64667 -2.82334,3.13 -2.82334,4.75667 0,2.42 7.38,0.59667 9.826667,-4.72 1.890003,-4.13 1.063333,-26.83333 1.063333,-26.83333 l 2.01667,-0.04 c 0,0 0.11333,10.39 0.0433,15.14 -0.07,4.92 -0.41,11.14 2.56333,14.07333 1.95334,1.93 8.28,5.31333 8.28,2.22 0,-1.79667 -3.46666,-3.27333 -3.46666,-8.13667 V 131.56 c 2.77,0 2.35333,7.36 2.35333,7.36 l 0.20333,13.67667 c 0,0 -0.61333,4.98 5.48334,7.06333 2.15,0.74333 6.75,0.94333 6.96666,-0.3 0.21667,-1.24333 -5.54,-3.09333 -5.59333,-6.94667 -0.0333,-2.35666 0.10667,-3.73 0.10667,-13.95666 0,-10.22667 -1.39667,-14.00667 -6.26667,-17.02 15.02667,-1.51667 24.33,-5.17 28.86,-14.95334 0.35333,0.01 1.85,-4.57 1.65333,-4.57 C 144.77997,98.22 145.32997,93.85 145.43664,88.676667 145.40994,74.643333 138.57664,69.68 137.26664,67.35 139.2,56.726667 136.94,51.893333 135.89333,50.233333 c -3.87333,-1.353333 -13.47,3.483334 -18.71666,6.89 -8.54667,-2.456666 -26.620003,-2.22 -33.39667,0.633334 -12.503333,-8.796667 -19.12,-7.45 -19.12,-7.45 0,0 -4.276667,7.53 -1.13,18.55 -4.113333,5.153333 -7.18,8.8 -7.18,18.463333 0.0033,5.446667 0.656667,10.32 2.126667,14.57333 z M 100,200 C 44.773333,200 0,155.22667 0,100 0,44.77 44.773333,0 100,0 c 55.22667,0 100,44.77 100,100 0,55.22667 -44.77333,100 -100,100 z" /></svg>
+          </a>
+          <a class='linkedin' href="https://www.linkedin.com/in/scottarthurgall/">
+            <svg
+              class='icon icon-heading'  
+              xmlns:dc="http://purl.org/dc/elements/1.1/"
+              xmlns:cc="http://creativecommons.org/ns#"
+              xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+              xmlns:svg="http://www.w3.org/2000/svg"
+              xmlns="http://www.w3.org/2000/svg"
+              xml:space="preserve"
+              viewBox="0 0 200 200"
+              version="1.1">
+              <path
+                style="clip-rule:evenodd;fill-rule:evenodd;stroke-width:3.33333349" fill='hsl(277, 53%, 42%)'
+                d="m 156.12333,147.12333 v -39.04 c 0,-20.916663 -11.16666,-30.649997 -26.05333,-30.649997 -12.01333,0 -17.39667,6.61 -20.39667,11.246667 V 79.033333 H 87.04 c 0.3,6.39 0,68.089997 0,68.089997 h 22.63333 v -38.02666 c 0,-2.03 0.14667,-4.06334 0.74667,-5.51667 1.63333,-4.066667 5.35667,-8.276667 11.60667,-8.276667 8.19333,0 11.46666,6.243337 11.46666,15.393337 v 36.43 h 22.63 z M 63.196667,69.74 c 7.89,0 12.806666,-5.233333 12.806666,-11.77 -0.146666,-6.676667 -4.916666,-11.76 -12.656666,-11.76 -7.74,0 -12.803334,5.08 -12.803334,11.76 0,6.536667 4.913334,11.77 12.51,11.77 z M 100,200 C 44.773333,200 0,155.22667 0,100 0,44.77 44.773333,0 100,0 c 55.22667,0 100,44.77 100,100 0,55.22667 -44.77333,100 -100,100 z M 74.513333,147.12333 V 79.033333 h -22.63 v 68.089997 z" /></svg>
+            <!-- <img class="icon" src="assets/images/linkedin.svg" alt="Github icon"> -->
+          </a>
+          <!-- <a href="assets/images/CV_ScottGall.pdf" target="_blank"><img class="icon" src="assets/images/cv.svg" alt="Github icon"></a> -->
+          <a class='resume' href="https://scott-gall.com/resume">
+            <svg class='icon icon-heading' viewBox="0 0 200 200" version="1.1"         xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd" fill='hsl(277, 53%, 42%)'>
+                <path d="M100,200 C44.771525,200 0,155.228475 0,100 C0,44.771525 44.771525,0 100,0 C155.228475,0 200,44.771525 200,100 C200,155.228475 155.228475,200 100,200 Z M39.1777344,102.077637 C39.1777344,112.885308 41.9325896,121.392059 47.4423828,127.598145 C52.952176,133.773957 60.5204597,136.861816 70.1474609,136.861816 C77.9277733,136.861816 84.3078364,134.576195 89.2878418,130.004883 C94.2678472,125.433571 97.3632752,119.500036 98.5742188,112.204102 L84.7241211,112.204102 C83.7856398,115.655291 82.6049876,118.243644 81.1821289,119.969238 C78.6088739,123.178239 74.8701417,124.782715 69.9658203,124.782715 C65.1825933,124.782715 61.2395175,122.913349 58.1364746,119.174561 C55.0334318,115.435772 53.4819336,109.812538 53.4819336,102.304688 C53.4819336,94.7968375 54.9501806,88.9919639 57.8867188,84.8898926 C60.8232569,80.7878213 64.8344472,78.7368164 69.9204102,78.7368164 C74.9155523,78.7368164 78.6845576,80.1899269 81.2275391,83.0961914 C82.6503977,84.7309652 83.8159134,87.152816 84.7241211,90.3618164 L98.7104492,90.3618164 C98.4985341,86.1840611 96.9546042,82.0215051 94.0786133,77.8740234 C88.871556,70.4872678 80.6372633,66.7939453 69.3754883,66.7939453 C60.9594306,66.7939453 54.0268827,69.5488006 48.5776367,75.0585938 C42.3110038,81.3857738 39.1777344,90.3920314 39.1777344,102.077637 Z M148.43457,68.0654297 L133.76709,118.879395 L119.23584,68.0654297 L104.295898,68.0654297 L126.910156,135 L140.124512,135 L162.96582,68.0654297 L148.43457,68.0654297 Z" id="Combined-Shape"></path>
+              </g>
+          </svg>
+          </a>
+        <!-- <p>scottarthurgall@gmail.com</p>
+        <p>CHICAGO, IL</p>
+        <p class='personal-statement'><i>I love building powerful tools and creating accessible experiences for the web.</i></p> -->
+    </div>
+    </div>
+
+      <div class='work'>
+        <!-- <div class="waveHorizontals">
+          <div id="waveHorizontal1" class="waveHorizontal"></div>
+          <div id="waveHorizontal2" class="waveHorizontal"></div>
+          <div id="waveHorizontal3" class="waveHorizontal"></div>
+        </div> -->
+        
+        <div class='project-section'>
+            <p class='statement'>I love building for the web!<br> Here's some of my work...</p>
+          <div class='project-container'>
+            <p class='project-title'>LOOKING BACK</p>
+            <a href="https://looking-back.herokuapp.com/" ><img class='thumbnail rounded' src='https://res.cloudinary.com/dmkdfvoqb/image/upload/v1552050513/lookingback.jpg'/></a>
+            <p class='description'>MERN stack social media app</p>
+            <div class='project-links'>
+                <a class='proj-button' href="https://looking-back.herokuapp.com/" ><img class="icon link-icon" src="assets/images/link2.svg" alt="Linkedin icon"></a>
+                <a href="https://github.com/scottgall/Looking-Back/" ><img class="icon" src="assets/images/github.svg" alt="Linkedin icon"></a>
+            </div>
+          </div>
+
+          <div class='project-container'>
+            <p class='project-title'>JOBSPACE</p>
+            <a href="https://thejobspace.herokuapp.com/" ><img class='thumbnail rounded xs-right' src='https://res.cloudinary.com/dmkdfvoqb/image/upload/v1552050488/jobspace.png'/></a>
+            <p class='description xs-text-right'>MySQL job application tracker</p>
+            <div class='project-links xs-text-right'>
+              <a href="https://thejobspace.herokuapp.com/" ><img class="icon link-icon" src="assets/images/link2.svg" alt="Linkedin icon"></a>
+              <a href="https://github.com/scottgall/Job-Space/" ><img class="icon" src="assets/images/github.svg" alt="Linkedin icon"></a>
+            </div>
+          </div>
+
+          <div class='project-container'>
+            <p class='project-title'>FRIDGE FORAGER</p>
+            <a href="https://scottgall.github.io/Fridge-Forager/" ><img class='thumbnail rounded s-right xs-left' src='https://res.cloudinary.com/dmkdfvoqb/image/upload/v1552050462/fridgeforager.jpg'/></a>
+            <p class='description s-text-right xs-text-left'>Customizable recipe search engine</p>
+            <div class='project-links s-text-right xs-text-left'>
+                <a href="https://scottgall.github.io/Fridge-Forager/" ><img class="icon link-icon" src="assets/images/link2.svg" alt="Linkedin icon"></a>
+                <a href="https://github.com/scottgall/Fridge-Forager/" ><img class="icon" src="assets/images/github.svg" alt="Linkedin icon"></a>
+            </div>
+          </div>
+
+          <div class='project-container'>
+            <p class='project-title'>SKATE TRIVIA</p>
+            <a href="https://scottgall.github.io/Skateboard-Trivia-Quiz/" ><img class='thumbnail rounded l-right s-right' src='assets/images/skateboardtrivia.jpg'/></a>
+            <p class='description s-text-eifhr l-text-right'>Trivia game using JS timing events</p>
+            <div class='project-links l-text-right s-text-right'>
+              <a href="https://scottgall.github.io/Skateboard-Trivia-Quiz/" "><img class="icon link-icon" src="assets/images/link2.svg" alt="Linkedin icon"></a>
+              <a href="https://github.com/scottgall/Skateboard-Trivia-Quiz/" ><img class="icon" src="assets/images/github.svg" alt="Linkedin icon"></a>
+            </div>
+          </div>
+
+          <div class='project-container'>
+            <p class='project-title'>STAR WARS RPG</p>
+            <a href="https://scottgall.github.io/Star-Wars-RPG/" ><img class='thumbnail rounded l-right s-left xs-left' src='https://res.cloudinary.com/dmkdfvoqb/image/upload/v1552050497/starwars.jpg'/></a>
+            <p class='description l-text-right s-text-left xs-text-left'>Single-player  RPG</p>
+            <div class='project-links l-text-right s-text-left xs-text-left'>
+              <a href="https://scottgall.github.io/Star-Wars-RPG/" ><img class="icon link-icon" src="assets/images/link2.svg" alt="Linkedin icon" /></a>
+              <a href="https://github.com/scottgall/Star-Wars-RPG" ><img class="icon" src="assets/images/github.svg" alt="Linkedin icon" ></a>
+            </div>
+            <!-- <a href="https://scottgall.github.io/Star-Wars-RPG/">Link</a>
+            <a href="https://github.com/scottgall/Star-Wars-RPG">GitHub</a> -->
+          </div>
+          <div class='project-container'>
+            <p class='project-title'>GUESS THE TRICK</p>
+            <a href="https://scottgall.github.io/Guess-The-Trick/" ><img class='thumbnail rounded l-right s-left xs-right' src='https://res.cloudinary.com/dmkdfvoqb/image/upload/v1552050474/guessthetrick.jpg'/></a>
+            <p class='description l-text-right s-text-left xs-text-right'>JavaScript hangman game</p>
+            <div class='project-links l-text-right s-text-left xs-text-right'>
+              <a href="https://scottgall.github.io/Guess-The-Trick/" ><img class="icon link-icon" src="assets/images/link2.svg" alt="Linkedin icon"></a>
+              <a href="https://github.com/scottgall/Guess-The-Trick/" ><img class="icon" src="assets/images/github.svg" alt="Linkedin icon"></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="extras-container">
+        <div class="extras-section extras-section-floats">
+          <a class="tde-logo" href="https://www.thedifferenceengine.io/"><img class="tde-logo" src="assets/images/tde.png" /></a>
+           I'm currently a Web Developer Apprentice at <a class="text-link" href="https://www.thedifferenceengine.io/">The Difference Engine</a> working with a team of devs to <a class="text-link" href="https://github.com/the-difference-engine/ymim">build</a> a custom CMS in React & Django for a local non-profit, Young Masterbuilders in Motion (YMIM). Head over to the <a class="text-link" href="https://theymim.org">current site</a> to see how YMIM inspires, connects, and empowers young women orphans, adoptees, and foster youth alumnae.
+           <br><br>
+        </div>
+      
+        <div class="extras-section">
+          <a class="" href="https://www.youtube.com/watch?v=NQpKEpVTo1M&t=11s"><img class="skate" src="assets/images/skate.jpg" /></a>
+          I love cheese, podcasts, and bike-share systems, but my biggest passion is skateboarding. I've been doing it now for most of my life. Like coding, I love to skate because there's always something new to learn and it never comes easy. Check out some of my skate <a class="text-link videos-link" href="https://www.youtube.com/user/SagSagUsername/videos?view_as=subscriber">videos</a>!
+        </div>
+      </div>
+      <div class="footer-container">
+        <div class="footer">
+          <div class="footer-content">
+            <!-- <p class="always-looking">Always looking for new friends, projects, and opportunities.</p> -->
+            <div class="contact-section">
+              <p class="hit-me-up">Hit me up!</p>
+              <div>(847) 505-2423<br>
+              scottarthurgall@gmail.com<br>
+              <a href="mailto:scottarthurgall@gmail.com"><img class="icon mail-icon" src="assets/images/mail.svg" alt="mail icon"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   <script>
     const favicon = document.querySelector("link[rel=icon]");
+  
     if (favicon) {
       const emoji = favicon.getAttribute("data-emoji");
+  
       if (emoji) {
         const canvas = document.createElement("canvas");
         canvas.height = 64;
         canvas.width = 64;
+  
         const ctx = canvas.getContext("2d");
         ctx.font = "64px serif";
         ctx.fillText(emoji, 0, 64);
+  
         favicon.href = canvas.toDataURL();
       }
     }
   </script>
-  <!-- END Favicon script -->
 </body>
 </html>
