@@ -13,5 +13,23 @@
   <body style="height: 100%; width: 100%; overflow: hidden; margin: 0px; background-color: rgb(82, 86, 89);">
 
   <embed width="100%" height="100%" name="plugin" id="plugin" src="assets/images/Resume_ScottGall.pdf" type="application/pdf" internalinstanceid="9" style="position: absolute; top: 0px; left: 0px">
-  
+    <script>
+      const favicon = document.querySelector("link[rel=icon]");
+    
+      if (favicon) {
+        const emoji = favicon.getAttribute("data-emoji");
+    
+        if (emoji) {
+          const canvas = document.createElement("canvas");
+          canvas.height = 64;
+          canvas.width = 64;
+    
+          const ctx = canvas.getContext("2d");
+          ctx.font = "64px serif";
+          ctx.fillText(emoji, 0, 64);
+    
+          favicon.href = canvas.toDataURL();
+        }
+      }
+    </script>
   </body>  
