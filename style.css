@@ -379,7 +379,7 @@ body {
 .mail-icon {
   width: 37.5px;
   transition: all 250ms ease;
-  filter: fill(#fd992d);
+  /* filter: fill(#fd992d); */
 }
 
 .mail-icon:hover {
