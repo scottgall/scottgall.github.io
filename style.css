@@ -168,6 +168,7 @@ body {
 .statement {
   width: 100%;
   margin: 15px 10px;
+  font-size: 25px;
 }
 
 .project-section {
@@ -335,6 +336,11 @@ body {
   margin-right: 20px;
   margin-left: 0px;
   shape-outside: polygon(35.15% 3.32%, 49.18% -0.71%, 65.97% 3.29%, 73.79% 10.27%, 84.01% 31.23%, 82.5% 49.53%, 79.08% 69.91%, 78.09% 78.69%, 78.86% 84.79%, 93.03% 89.9%, 93.74% 101.39%, -1.02% 100.45%, -0.99% 90.42%, 12.87% 89.44%, 13% 77.87%, 20.11% 68.58%, 13.17% 52.17%, 13.92% 30.8%, 23.05% 12.63%);
+}
+.nu-logo {
+  float: right;
+  margin-left: 10px;
+  width: 120px;
 }
 
 .footer-container {
