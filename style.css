@@ -25,7 +25,9 @@ html {
   scrollbar-width: none;
 
 }
-
+.added {
+  height: 100%;
+}
 body {
   margin: 0px;
   padding: 0;
